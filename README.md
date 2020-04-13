@@ -3,7 +3,7 @@
 
 **_Developing of a program which shows a brief analysis about the share prices of NASDAQ-100 companies_**
 
-#![](giphy.gif)
+![](giphy.gif)
 
 ### RESUME📈💰
 
@@ -51,6 +51,10 @@ optional arguments:
 `python3 main.py -c "Facebook Inc." -d "2019-05-05"`
 
 -Everything that comes later, is super intuitive.
+
+
+
+
 
 
 
