@@ -10,6 +10,7 @@
 I have develop a basic program which you can run from the bash-terminal and it returns a brief analysis of the share price in a specific date of a company you choose.
 
 You have two options:
+
   -1st: work through the bash terminal and the program will be showing you some options where you have to take a decision        before printing you the analysis.
   
   -2nd: work through the bash terminal as well but, if you choose that option, the program will generate a PDF with the   report. You have an example in the SRC folder.
@@ -26,8 +27,10 @@ After that, I wrote the code that makes this possible and which you can find in 
 ### HOW IT WORKS(EXAMPLE)🎮  
 
 -Go open your terminal and make sure you have Python. 
+
 -Write the name of the file in which is the code and run "-h" to see all the options:
-`
+
+```
 python3 main.py -h
 usage: main.py [-h] [-l LISTCOMPANY] [-c COMPANY] [-d DATE]
 
@@ -39,8 +42,10 @@ optional arguments:
                   companies name you can choose from
   -c COMPANY      Name of the company you would like to analyze
   -d DATE         Date as YYYY-MM-DD you would like to analyze
-`
+  ```
+
 -If you type "-l listcompany" a list with all the availables companies will be shown 
+
 -Once you decided the company and the date, type them as -c and -d and it will all start. For example:
 
 `python3 main.py -c "Facebook Inc." -d "2019-05-05"`
