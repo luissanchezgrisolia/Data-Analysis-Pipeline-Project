@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 
 #Origin dataframe from which I am going to define some functions
-df=pd.read_csv('../../CSV/nasdaq_final.csv',low_memory=False)  
+df=pd.read_csv('../OUTPUT/nasdaq_final.csv',low_memory=False)  
 
 
 #Returns a list with the name of the companies
